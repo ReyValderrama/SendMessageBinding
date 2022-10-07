@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.mrv.sendmessage"},{"l":"com.mrv.sendmessage.data"},{"l":"com.mrv.sendmessage.ui"}]

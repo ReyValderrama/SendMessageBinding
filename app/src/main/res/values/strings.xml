@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SendMessage</string>
+    <string name="etMessageHint">Escribe un mensaje…</string>
+    <string name="etMessageText" />
+    <string name="btnSendText">ENVIAR</string>
+    <string name="etUserHint">Introduce tu nombre</string>
+    <string name="tvUserMessageText">El usuario:</string>
+    <string name="tvMessageTextText">Ha escrito el mensaje:</string>
+    <string name="ImgMessage">Imagen que muestra un sobre</string>
+    <string name="aboutus">Sobre mí</string>
+    <string name="subTitle">Desarroladora de Software</string>
+    <string name="brief">Estudiante de CFGS Desarrollo de Aplicaciones Multiplataforma</string>
+    <string name="gitHub" translatable="false">ReyValderrama</string>
+</resources>

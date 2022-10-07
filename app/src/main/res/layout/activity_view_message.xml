@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="message"
+            type="com.mrv.sendmessagebinding.data.Message" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/llActivityNewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/llActivityNewMessagePadding"
+        tools:context=".ui.ViewMessageActivity">
+
+        <TextView
+            android:id="@+id/tvUserMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/tvGlobalMarginBottom"
+            android:text="@string/tvUserMessageText" />
+
+        <TextView
+            android:id="@+id/tvUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/tvGlobalMarginBottom"
+            android:text="@{message.user.name}" />
+
+        <TextView
+            android:id="@+id/tvMessageText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/tvGlobalMarginBottom"
+            android:text="@string/tvMessageTextText" />
+
+        <TextView
+            android:id="@+id/tvMessageMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="300dp"
+            android:text="@{message.content}" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/sendmessageimg"
+            android:contentDescription="@string/ImgMessage"
+            tools:ignore="ImageContrastCheck" />
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SendMessage</string>
+    <string name="etMessageHint">Write a message...</string>
+    <string name="etMessageText" />
+    <string name="btnSendText">SEND</string>
+    <string name="etUserHint">Into name</string>
+    <string name="tvUserMessageText">User:</string>
+    <string name="tvMessageTextText">Has written the message:</string>
+    <string name="ImgMessage">Image showing an envelop</string>
+    <string name="aboutus">About me</string>
+    <string name="subTitle">Sofware Developer</string>
+    <string name="brief">Advance Degree of Software Development student</string>
+</resources>

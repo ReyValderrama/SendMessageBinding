@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"com.mrv.sendmessage","l":"ExampleInstrumentedTest"},{"p":"com.mrv.sendmessage","l":"ExampleUnitTest"},{"p":"com.mrv.sendmessage.data","l":"Message"},{"p":"com.mrv.sendmessage.ui","l":"SendMessageActivity"},{"p":"com.mrv.sendmessage.ui","l":"ViewMessageActivity"}]

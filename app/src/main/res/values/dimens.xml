@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="etMessageMarginTop">50dp</dimen>
+    <dimen name="etMessageMinHeight">48dp</dimen>
+    <dimen name="btnSendMarginTop">50dp</dimen>
+    <dimen name="etUserMarginTop">50dp</dimen>
+    <dimen name="etUserMinHeight">48dp</dimen>
+    <dimen name="tvGlobalMarginBottom">5dp</dimen>
+    <dimen name="llActivityNewMessagePadding">20dp</dimen>
+    <dimen name="tvGlobalHeight">40dp</dimen>
+</resources>
