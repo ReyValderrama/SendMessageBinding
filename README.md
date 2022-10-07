@@ -124,9 +124,10 @@ protected void onStart() {
 ```
 
         - Código mostrado en el Log:
+	
         ![](http://mrvvps.live/Prueba/CicloVida.PNG)
 
-        - **Implementación de menú:** el menú de una aplicación es un recurso para el que se debe crear un directorio en res. Para ello se pulsa sobre File --> New --> Android Resource Directory, seleccionando el menú como el tipo de recurso. En este directorio se crea el menú, que en este proyecto será el mismo para toda la aplicación. Los diferentes elementos que se añadan al menú, irán precedidos de la etiqueta <item></item> como se muestra:
+- **Implementación de menú:** el menú de una aplicación es un recurso para el que se debe crear un directorio en res. Para ello se pulsa sobre File --> New --> Android Resource Directory, seleccionando el menú como el tipo de recurso. En este directorio se crea el menú, que en este proyecto será el mismo para toda la aplicación. Los diferentes elementos que se añadan al menú, irán precedidos de la etiqueta <item></item> como se muestra:
         
 ```java
 <?xml version="1.0" encoding="utf-8"?>
