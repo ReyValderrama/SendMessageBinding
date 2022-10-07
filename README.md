@@ -2,9 +2,9 @@
 
 ![](https://cdn.pixabay.com/photo/2016/06/13/17/30/mail-1454731_960_720.png)
 
-- [Descripción](#descripci-n)
-- [Características](#caracter-sticas)
-- [Librerías](#librer-as)
+- [Descripción](#descripción)
+- [Características](#características)
+- [Librerías](#librerías)
 - [Contenidos de aprendizaje](#contenidos-de-aprendizaje)
 - [Capturas](#capturas)
 
