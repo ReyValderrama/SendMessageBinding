@@ -103,7 +103,7 @@ implementation fileTree(include: ['*.jar'], dir: 'libs')
         implementation files('C:/Users/Juanjo/AppData/Local/Android/Sdk/platforms/android-32/android.jar')
 ```
 
-        Una vez añadidas estas líneas y sincronizado el Gradle del módulo, se pulsa sobre Tools --> Generate JavaDoc
+Una vez añadidas estas líneas y sincronizado el Gradle del módulo, se pulsa sobre Tools --> Generate JavaDoc
 
  **Nota importante:** una vez generada la documentación, estas líneas deben ser comentadas o se duplicará el fichero AndroidManifest y generará problemas en la aplicación. Debe volverse a sincronizar.
 
