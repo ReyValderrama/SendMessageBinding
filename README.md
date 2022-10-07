@@ -109,12 +109,12 @@ Una vez añadidas estas líneas y sincronizado el Gradle del módulo, se pulsa s
 
 ![](http://mrvvps.live/Prueba/JavaDoc1.PNG)![](http://mrvvps.live/Prueba/JavaDoc2.PNG)
 
-        - **Ciclo de vida de una Activity**: consistente en los diferentes estados por los que pasa una Actividad. Para el aprendizaje de este contenido se implementó una librería que permitía escribir logs. Estos logs se han lanzado sobreescribiendo cada uno de los métodos que componen los diferentes estados de una Activity: onCreate(), onDestroy(), onStart(), onStop(), onResume(), onPause() y onRestart()
+- **Ciclo de vida de una Activity**: consistente en los diferentes estados por los que pasa una Actividad. Para el aprendizaje de este contenido se implementó una librería que permitía escribir logs. Estos logs se han lanzado sobreescribiendo cada uno de los métodos que componen los diferentes estados de una Activity: onCreate(), onDestroy(), onStart(), onStop(), onResume(), onPause() y onRestart()
 
-        - Ilustración simplificada del ciclo de vida de una actividad. Documentación Android Developer.
-        ![](https://developer.android.com/guide/components/images/activity_lifecycle.png?hl=es-419)!
+- Ilustración simplificada del ciclo de vida de una actividad. Documentación Android Developer.
+![](https://developer.android.com/guide/components/images/activity_lifecycle.png?hl=es-419)
 
-        - Ejemplo de código sobreescrito de uno de los métodos del ciclo de vida de una Activity:
+- Ejemplo de código sobreescrito de uno de los métodos del ciclo de vida de una Activity:
 ```java
 @Override
 protected void onStart() {
@@ -123,9 +123,9 @@ protected void onStart() {
         }
 ```
 
-        - Código mostrado en el Log:
-	
-        ![](http://mrvvps.live/Prueba/CicloVida.PNG)
+- Código mostrado en el Log:
+- 
+![](http://mrvvps.live/Prueba/CicloVida.PNG)
 
 - **Implementación de menú:** el menú de una aplicación es un recurso para el que se debe crear un directorio en res. Para ello se pulsa sobre File --> New --> Android Resource Directory, seleccionando el menú como el tipo de recurso. En este directorio se crea el menú, que en este proyecto será el mismo para toda la aplicación. Los diferentes elementos que se añadan al menú, irán precedidos de la etiqueta <item></item> como se muestra:
         
