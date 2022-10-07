@@ -105,9 +105,9 @@ implementation fileTree(include: ['*.jar'], dir: 'libs')
 
         Una vez añadidas estas líneas y sincronizado el Gradle del módulo, se pulsa sobre Tools --> Generate JavaDoc
 
-        **Nota importante:** una vez generada la documentación, estas líneas deben ser comentadas o se duplicará el fichero AndroidManifest y generará problemas en la aplicación. Debe volverse a sincronizar.
+ **Nota importante:** una vez generada la documentación, estas líneas deben ser comentadas o se duplicará el fichero AndroidManifest y generará problemas en la aplicación. Debe volverse a sincronizar.
 
-        ![](http://mrvvps.live/Prueba/JavaDoc1.PNG)![](http://mrvvps.live/Prueba/JavaDoc2.PNG)
+![](http://mrvvps.live/Prueba/JavaDoc1.PNG)![](http://mrvvps.live/Prueba/JavaDoc2.PNG)
 
         - **Ciclo de vida de una Activity**: consistente en los diferentes estados por los que pasa una Actividad. Para el aprendizaje de este contenido se implementó una librería que permitía escribir logs. Estos logs se han lanzado sobreescribiendo cada uno de los métodos que componen los diferentes estados de una Activity: onCreate(), onDestroy(), onStart(), onStop(), onResume(), onPause() y onRestart()
 
