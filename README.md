@@ -61,13 +61,13 @@ enabled = true
 }
 ```
 
-	- Crear una variable de la clase de vinculación, que tendrá el nombre del XML de la activity añadiendo la palabra «Binding» al final. Por ejemplo, si tenemos un layout con nombre «activity_send_message», la clase será **ActivitySendMessageBinding**. De esta manera, se tiene aceso tanto a la vista root con el método getRoot(), como a todas las vistas que tengan ID finida en el layout.
+- Crear una variable de la clase de vinculación, que tendrá el nombre del XML de la activity añadiendo la palabra «Binding» al final. Por ejemplo, si tenemos un layout con nombre «activity_send_message», la clase será **ActivitySendMessageBinding**. De esta manera, se tiene aceso tanto a la vista root con el método getRoot(), como a todas las vistas que tengan ID finida en el layout.
 
 ```java
 private ActivitySendMessageBinding binding;
 ```
 
-	- Configurar la instancia para ser usada en la activity. Para ello se usa un método de la propia clase declarada en el paso anterior: inflate(getLayoutInflater()), que crea una instancia de la clase de vinculación para la actividad en la que se declara. Además, se requiere que la vista raíz sea pasada al método setContentView() para que sea la vista activa. 
+- Configurar la instancia para ser usada en la activity. Para ello se usa un método de la propia clase declarada en el paso anterior: inflate(getLayoutInflater()), que crea una instancia de la clase de vinculación para la actividad en la que se declara. Además, se requiere que la vista raíz sea pasada al método setContentView() para que sea la vista activa. 
 
 ```java
         binding = ActivitySendMessageBinding.inflate(getLayoutInflater());
@@ -84,7 +84,7 @@ private ActivitySendMessageBinding binding;
           }
 }
 ```
-	- Modificar el layout XML, cambiando el elemento raíz por <layout></layout> y definiendo, tras la declaración de este, la variable que se va a declarar: <variable></variable>, precedida de la etiqueta <data></data>. Dentro de la etiqueta de cada variable se deben definir los atributos name (nombre utilizado en el modelo, al que se referirá el código posteriormente) y type (ruta de la clase modelo). 
+- Modificar el layout XML, cambiando el elemento raíz por <layout></layout> y definiendo, tras la declaración de este, la variable que se va a declarar: <variable></variable>, precedida de la etiqueta <data></data>. Dentro de la etiqueta de cada variable se deben definir los atributos name (nombre utilizado en el modelo, al que se referirá el código posteriormente) y type (ruta de la clase modelo). 
 	
 ```java
     <layout xmlns:android="http://schemas.android.com/apk/res/android"
