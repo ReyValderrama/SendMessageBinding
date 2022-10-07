@@ -1,9 +1,12 @@
 # SendMessageBinding
 
+![](https://cdn.pixabay.com/photo/2016/06/13/17/30/mail-1454731_960_720.png)
+
 - [Descripción](#descripci-n)
 - [Características](#caracter-sticas)
 - [Librerías](#librer-as)
 - [Contenidos de aprendizaje](#contenidos-de-aprendizaje)
+- [Capturas](#capturas)
 
 
 #### Descripción
@@ -111,10 +114,10 @@ Una vez añadidas estas líneas y sincronizado el Gradle del módulo, se pulsa s
 
 - **Ciclo de vida de una Activity**: consistente en los diferentes estados por los que pasa una Actividad. Para el aprendizaje de este contenido se implementó una librería que permitía escribir logs. Estos logs se han lanzado sobreescribiendo cada uno de los métodos que componen los diferentes estados de una Activity: onCreate(), onDestroy(), onStart(), onStop(), onResume(), onPause() y onRestart()
 
-- Ilustración simplificada del ciclo de vida de una actividad. Documentación Android Developer.
+Ilustración simplificada del ciclo de vida de una actividad. Documentación Android Developer.
 ![](https://developer.android.com/guide/components/images/activity_lifecycle.png?hl=es-419)
 
-- Ejemplo de código sobreescrito de uno de los métodos del ciclo de vida de una Activity:
+Ejemplo de código sobreescrito de uno de los métodos del ciclo de vida de una Activity:
 ```java
 @Override
 protected void onStart() {
@@ -123,8 +126,8 @@ protected void onStart() {
         }
 ```
 
-- Código mostrado en el Log:
-- 
+Código mostrado en el Log:
+
 ![](http://mrvvps.live/Prueba/CicloVida.PNG)
 
 - **Implementación de menú:** el menú de una aplicación es un recurso para el que se debe crear un directorio en res. Para ello se pulsa sobre File --> New --> Android Resource Directory, seleccionando el menú como el tipo de recurso. En este directorio se crea el menú, que en este proyecto será el mismo para toda la aplicación. Los diferentes elementos que se añadan al menú, irán precedidos de la etiqueta <item></item> como se muestra:
@@ -190,3 +193,9 @@ binding.setMessage(new Message(((SendMessageApplication) getApplication()).getUs
 ```
 - **Uso de icono para la app y redimensionado de imágenes**: a este proyecto se le ha cambiado el icono que aparece por defecto, añadiendo dentro de la carpeta mipmap un nuevo vector. Para esto se pulsa botón derecho sobre la carpeta mipmap --> New --> Vector Aset y se selecciona la imagen que se desea mostrar como icono, así como su fondo o su dimensión. Esta misma herramienta crea de manera autómata el icono en las diferentes resoluciones, de forma que, dependiendo de la resolución de pantalla del dispositivo, será mostrado el icono que corresponda de manera automática, buscando en la carpeta indicada el archivo con su resolución propia.
 ![](http://mrvvps.live/Prueba/Icono.PNG)
+
+#### Capturas
+
+![](http://mrvvps.live/Prueba/Captura1.PNG)
+![](http://mrvvps.live/Prueba/Captura2.PNG)
+![](http://mrvvps.live/Prueba/Captura3.PNG)
