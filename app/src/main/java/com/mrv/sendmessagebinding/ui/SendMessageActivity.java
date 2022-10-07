@@ -56,7 +56,6 @@ public class SendMessageActivity extends AppCompatActivity {
         //Establecer el Listener OnClickListener al botón mediante una clase anónima
         //que implementa la interfaz View.OnClickListener
 
-        //SendMessageApplication sendMessageApplication = new SendMessageApplication();
         binding.setMessage(new Message(((SendMessageApplication) getApplication()).getUser()));
         binding.btSend.setOnClickListener(view -> sendMessage());
         //view -> Toast.makeText(SendMessageActivity.this,"Esto es a través de una clase anónima.", Toast.LENGTH_SHORT).show());
@@ -86,7 +85,6 @@ public class SendMessageActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.action_aboutus:
-                //Toast.makeText(this, "Se ha pulsado sobre About Us", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(this, AboutUsActivity.class);
                 startActivity(intent);
                 break;
