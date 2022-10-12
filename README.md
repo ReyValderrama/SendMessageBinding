@@ -99,11 +99,11 @@ private ActivitySendMessageBinding binding;
             type="com.mrv.sendmessagebinding.data.Message" />
     </data>
 ```
-- **Generación de documentación JavaDoc**: esta documentación es utilizada por el lenguaje de programación Java para documentar, mediante etiquetas especiales, que son interpretadas una vez que la documentación se genera, las clases, variables o métodos de una aplicación. Permite el uso de etiquetas HTML y una serie de etiquetas propias. Para generar esta documentación es necesario añadir las siguientes líneas al Gradle del módulo:
+- **Generación de documentación JavaDoc**: esta documentación es utilizada por el lenguaje de programación Java para documentar, mediante etiquetas especiales, que son interpretadas una vez que la documentación se genera, las clases, variables o métodos de una aplicación. Permite el uso de etiquetas HTML y una serie de etiquetas propias. Para generar esta documentación es necesario añadir las siguientes líneas al Gradle del módulo, cambiando la palabra usuario por el usuario de Windows en cuestión:
 
 ```java
 implementation fileTree(include: ['*.jar'], dir: 'libs')
-        implementation files('C:/Users/kambr/AppData/Local/Android/Sdk/platforms/android-32/android.jar')
+        implementation files('C:/Users/usuario/AppData/Local/Android/Sdk/platforms/android-32/android.jar')
 ```
 
 Una vez añadidas estas líneas y sincronizado el Gradle del módulo, se pulsa sobre Tools --> Generate JavaDoc
