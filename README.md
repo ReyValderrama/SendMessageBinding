@@ -103,7 +103,7 @@ private ActivitySendMessageBinding binding;
 
 ```java
 implementation fileTree(include: ['*.jar'], dir: 'libs')
-        implementation files('C:/Users/Juanjo/AppData/Local/Android/Sdk/platforms/android-32/android.jar')
+        implementation files('C:/Users/kambr/AppData/Local/Android/Sdk/platforms/android-32/android.jar')
 ```
 
 Una vez añadidas estas líneas y sincronizado el Gradle del módulo, se pulsa sobre Tools --> Generate JavaDoc
